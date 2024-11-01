@@ -1,10 +1,9 @@
 package Interface;
 
-import abstraction.GraphicalShape;
+public class Circle implements GraphicalShape {
 
-public class Circle extends GraphicalShape {
     public Circle(){
-        System.out.println("Circle Constructor is looding...");
+        System.out.println("Circle constructor is loading.....");
     }
     public void Draw(){
         System.out.println("Drawing");

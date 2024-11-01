@@ -1,8 +1,8 @@
 package Interface;
 
-import abstraction.GraphicalShape;
 
-public class ractangle extends GraphicalShape {
+
+public class ractangle implements GraphicalShape {
     public void Draw(){
         System.out.println("Drawing rectangle");
     }

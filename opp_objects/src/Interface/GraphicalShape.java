@@ -1,13 +1,8 @@
 package Interface;
 
-public abstract class GraphicalShape {
-    int x, y;
-    public GraphicalShape(){
-        System.out.println("base abstract class");
-    }
-
-    abstract void Draw();
-    abstract void resize();
-
+interface GraphicalShape {
+    int x = 10, y = 20;
+    void Draw();
+    void resize();
 
 }
